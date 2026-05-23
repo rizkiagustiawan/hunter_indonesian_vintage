@@ -1,0 +1,42 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+*.cgo1.go
+*.cgo2.c
+_cgo_defun.c
+_cgo_gotypes.go
+_cgo_export.*
+
+_testmain.go
+
+# Executables
+*.exe
+*.test
+*.prof
+
+# Project specific binaries
+fbm-monitor
+check-cookies
+
+# Sensitive Data & Local State
+cookies/
+cookies.json
+data/
+*.log
+.env
+config.toml
+
+# Legacy Python
+__pycache__/
+*.pyc
+venv/

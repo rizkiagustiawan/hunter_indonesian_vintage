@@ -1,0 +1,15 @@
+[Unit]
+Description=FBM Vintage Monitor (VPS Edition)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/fbm-vintage-monitor
+ExecStart=/usr/bin/python3 /home/ubuntu/fbm-vintage-monitor/main.py
+Restart=on-failure
+RestartSec=60
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
