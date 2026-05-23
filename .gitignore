@@ -35,6 +35,7 @@ data/
 *.log
 .env
 config.toml
+.antigravitycli/
 
 # Legacy Python
 __pycache__/
