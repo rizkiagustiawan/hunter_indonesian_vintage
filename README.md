@@ -23,7 +23,7 @@ Pastikan Anda sudah menginstal [Go](https://go.dev/dl/) (versi 1.21+ disarankan)
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/USERNAME/fbm-vintage-monitor.git
+   git clone https://github.com/rizkiagustiawan/fbm-vintage-monitor.git
    cd fbm-vintage-monitor
    ```
 
