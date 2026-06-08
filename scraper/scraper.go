@@ -104,7 +104,7 @@ func FetchMarketplace(locationID, keyword string, cookies map[string]string, ret
 		// Create a new client per attempt for fresh fingerprinting
 		client := req.C().
 			ImpersonateChrome().
-			EnableHTTP3(). // 2026 standard: use HTTP/3 whenever possible
+			// EnableHTTP3(). // 2026 standard: use HTTP/3 whenever possible
 			SetTimeout(30 * time.Second).
 			SetCommonHeaders(map[string]string{
 				"Accept-Language":           "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7",

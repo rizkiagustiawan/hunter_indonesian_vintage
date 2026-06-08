@@ -92,7 +92,7 @@ func ParseListings(html, city, keyword string, priceMax int) []db.Listing {
 	var listings []db.Listing
 
 	for lid, p := range pairs {
-		if p.price < 1000 {
+		if p.price < 50000 {
 			continue
 		}
 		if priceMax > 0 && p.price > priceMax {
